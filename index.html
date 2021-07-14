@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <title>calculadora</title>
+   <!-- Favicon-->
+   <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+   <!-- Font Awesome icons (free version)-->
+    <link rel="stylesheet" href="styles.css">
+  
+
+</head>
+
+<body class="dark ">
+  <section>
+    <div class="calculadora">
+     
+       <div class="head">
+        
+        <span>
+          Calc
+        </span>
+        <span id="theme"  ><span style="text-align:left;">Theme</span>
+          <label id="boton">
+            1
+            <input type="radio" name="theme" id="t1">
+          </label>
+          <label id="boton">
+            2
+            <input type="radio" name="theme" id="t2">
+          </label>
+          <label id="boton">
+            3
+            <input type="radio" name="theme" id="t3">
+          </label>
+           
+        </span>
+      </div>
+      <br>
+      <div id="resultado" class="darks"></div>
+      <div class="tabla">
+        <table id="cuerpo">
+          <thead>
+            <td class="numero" id="7">7</td>
+            <td  class="numero" id="8">8</td>
+            <td  class="numero" id="9">9</td>
+            <td id='delete'  class="numero" style="background-color: hsl(222, 26%, 31%); color: white;">Del</td>
+
+          </thead>
+          <tbody>
+            <tr>
+              <td  class="numero" id="4">4</td>
+              <td  class="numero" id="5">5</td>
+              <td  class="numero" id="6">6</td>
+              <td id='plus'  class="numero">+</td>
+
+            </tr>
+            <tr>
+              <td  class="numero" id="1">1</td>
+              <td  class="numero" id="2">2</td>
+              <td  class="numero" id="3">3</td>
+              <td id='min'  class="numero">-</td>
+
+            </tr>
+            <tr >
+              <td id='dot'>.</td>
+              <td  class="numero" id="0">0</td>
+              <td id='div'  class="numero">/</td>
+              <td id='mul'  class="numero">x</td>
+
+            </tr>
+           
+          </tbody>
+          
+        </table>
+        <table id="ope2"> 
+          <tr>
+            <td  id="reset">
+              reset
+            </td>
+            <td  id="igual">
+              =
+            </td>
+
+          </tr>
+        </table>
+      </div>
+
+    </div>
+  </section>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Eduard</a>.
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
